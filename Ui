@@ -8,27 +8,34 @@
  ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝╚═╝
  ]]-- these scripts can result in ban risk do not blame me for it :)      
  -------------------------------------------------------------------
-                                                                                                                      
+local ChainSawManDevilHeart = "https://raw.githubusercontent.com/Lvl9999/CMDH/main/Ui";
+
+local SaitamaBattleGrounds = "https://raw.githubusercontent.com/Lvl9999/SBG/main/Ui";
+
+local InAnotherTime = "https://raw.githubusercontent.com/Lvl9999/IAT/main/Ui";
+
+local  AUniversalTime = "https://raw.githubusercontent.com/Lvl9999/AUT/main/Ui";
+
 spawn(function()
 if game.PlaceId == 11345435986 then -- CHAINSAW MAN DEVIL HEART
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/CMDH/main/Ui"))();
+loadstring(game:HttpGet(ChainSawManDevilHeart))();
 end
 end)
 
 spawn(function()
 if game.PlaceId == 10449761463 then -- SAITAMA BATTLE GROUND
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/SBG/main/Ui"))();
+loadstring(game:HttpGet(SaitamaBattleGrounds))();
 end
 end)
 
 spawn(function()
 if game.PlaceId == 5864786637 then -- IN ANOTHER TIME
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/IAT/main/Ui"))();
+loadstring(game:HttpGet(InAnotherTime))();
 end
 end)
 
 spawn(function()
-if game.PlaceId == 1487336989 then -- A UNIVERSAL TIME
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lvl9999/AUT/main/Ui"))();
+if game.PlaceId == 6846458508 then -- A UNIVERSAL TIME
+loadstring(game:HttpGet(AUniversalTime))();
 end
 end)

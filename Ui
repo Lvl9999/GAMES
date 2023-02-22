@@ -8,6 +8,7 @@
  ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝╚═╝
  ]]-- these scripts can result in ban risk do not blame me for it :)      
  -------------------------------------------------------------------
+ 
 local ChainSawManDevilHeart = "https://raw.githubusercontent.com/Lvl9999/CMDH/main/Ui";
 
 local SaitamaBattleGrounds = "https://raw.githubusercontent.com/Lvl9999/SBG/main/Ui";
@@ -15,6 +16,8 @@ local SaitamaBattleGrounds = "https://raw.githubusercontent.com/Lvl9999/SBG/main
 local InAnotherTime = "https://raw.githubusercontent.com/Lvl9999/IAT/main/Ui";
 
 local  AUniversalTime = "https://raw.githubusercontent.com/Lvl9999/AUT/main/Ui";
+
+local DragonBallXL = "https://raw.githubusercontent.com/Lvl9999/DBXL/main/Ui";
 
 spawn(function()
 if game.PlaceId == 11345435986 then -- CHAINSAW MAN DEVIL HEART
@@ -37,5 +40,11 @@ end)
 spawn(function()
 if game.PlaceId == 6846458508 then -- A UNIVERSAL TIME
 loadstring(game:HttpGet(AUniversalTime))();
+end
+end)
+
+spawn(function()
+if game.PlaceId == 1186465433 then -- DRAGON BALL XL
+loadstring(game:HttpGet(DragonBallXL))();
 end
 end)

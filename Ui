@@ -9,8 +9,8 @@
  these scripts can result in ban risk do not blame me for it :)
  ]]--
  -------------------------------------------------------------------
- if not game:IsLoaded() then
-    game.Loaded:Wait()
+if not game:IsLoaded() then
+game.Loaded:Wait()
 end wait()
 local StrToNumber = tonumber;
 local Byte = string.byte;
